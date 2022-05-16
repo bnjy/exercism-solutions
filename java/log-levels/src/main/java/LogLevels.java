@@ -5,6 +5,11 @@ public class LogLevels {
         LogLevels.reformat("[ERROR]: \t Corrupt disk\t \t \r\n");
     }
     
+    /**
+     * Implement the (static) LogLevels.message() method to return a log line's message
+     * @param logLine
+     * @return log line's message
+     */
     public static String message(String logLine) {        
         String[] splitLogLine = logLine.split("]:");
         return splitLogLine[1].trim();
