@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 class ResistorColor {
 
     private static String[] colorArray = {
