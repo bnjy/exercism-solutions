@@ -41,18 +41,7 @@ Java also provides a `switch` statement for scenarios with multiple options.
 ```java
 int val;
 
-// switch statement on variable content
-switch(val) {
-    case 1:
-        // conditional code
-        break;
-    case 2: case 3: case 4:
-        // conditional code
-        break;
-    default:
-        // if all cases fail
-        break;
-}
+!
 ```
 
 ## Instructions
