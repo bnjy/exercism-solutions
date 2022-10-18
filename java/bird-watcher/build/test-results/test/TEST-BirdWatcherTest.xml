@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BirdWatcherTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-10-18T19:55:29" hostname="Benjamins-MacBook-Pro.local" time="0.103">
+  <properties/>
+  <testcase name="itShouldNotHaveBusyDays" classname="BirdWatcherTest" time="0.081"/>
+  <testcase name="itShouldReturnZeroIfBirdWatcherLastWeekIsEmpty" classname="BirdWatcherTest" time="0.0"/>
+  <testcase name="itShouldNotHaveDaysWithoutBirds" classname="BirdWatcherTest" time="0.001"/>
+  <testcase name="itTestGetLastWeek" classname="BirdWatcherTest" time="0.011"/>
+  <testcase name="itHasDayWithoutBirds" classname="BirdWatcherTest" time="0.001"/>
+  <testcase name="itTestGetCountForBusyDays" classname="BirdWatcherTest" time="0.001"/>
+  <testcase name="itTestGetCountForFirstDays" classname="BirdWatcherTest" time="0.0"/>
+  <testcase name="itTestGetToday" classname="BirdWatcherTest" time="0.0"/>
+  <testcase name="itIncrementTodaysCount" classname="BirdWatcherTest" time="0.001"/>
+  <testcase name="itTestGetCountForMoreDaysThanTheArraySize" classname="BirdWatcherTest" time="0.001"/>
+  <system-out><![CDATA[0
+2
+5
+3
+7
+8
+4
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
